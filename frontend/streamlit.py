@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 from transformers import BertTokenizer, TFBertModel
 from tensorflow.keras.models import load_model
 import tensorflow as tf
-import app as st
+import streamlit as st
 from streamlit_chat import message
 
 # Download required NLTK data files
