@@ -84,5 +84,3 @@ The Crop Chat-Bot is deployed via **Streamlit**, providing an easy-to-use interf
 - **Real-time Integration**: The chatbot can be integrated with real-time crop disease monitoring tools or sensors, providing users with up-to-date information on disease outbreaks in their area.
 
 ---
-
-This detailed README should give a comprehensive overview of your Crop Chat-Bot project, explaining the various features, the training process, evaluation metrics, and how hyperparameter tuning was implemented.
