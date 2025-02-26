@@ -72,10 +72,10 @@ To evaluate the performance of the Crop Chat-Bot, two key metrics were used:
 The Crop Chat-Bot is deployed via **Streamlit**, providing an easy-to-use interface for farmers and advisors to interact with the model. Users can type in their queries about crop diseases, and the chatbot will respond with relevant information or advice.
 
 - **Web Demo**: The chatbot is hosted on the following platform for easy access:
-  - [Crop Chat-Bot Demo](https://cropbot.streamlit.app/)
+  - [Crop Chat-Bot Demo](https://thecropbot.streamlit.app/)
 
 - **Project Archive**: The project code and demo can be found in the following Google Drive link:
-  - [Project Google Drive](https://drive.google.com/file/d/1EO-j0heuqbZ7suuT4O4LdEpEoYy97hJD/view?usp=sharing)
+  - [Project Google Drive](#)
 
 ## Future Work
 
