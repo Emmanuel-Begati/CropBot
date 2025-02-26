@@ -23,9 +23,9 @@ with open('crops.json') as json_file:
     intents = json.load(json_file)
 
 # Load pre-trained model and supporting files
-words = pickle.load(open('backend/words.pkl', 'rb'))
-classes = pickle.load(open('backend/classes.pkl', 'rb'))
-model = load_model('backend/chatbotmodel.h5')
+words = pickle.load(open('model/words.pkl', 'rb'))
+classes = pickle.load(open('model/classes.pkl', 'rb'))
+model = load_model('model/chatbotmodel.h5')
 
 # Load BERT tokenizer and model
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
