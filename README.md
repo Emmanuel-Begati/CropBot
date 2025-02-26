@@ -1,7 +1,3 @@
-Here's the detailed version of the README for your Crop Chat-Bot project, including the evaluation metrics (BLEU and F1 score) and an explanation of hyperparameter tuning:
-
----
-
 # Crop Chat-Bot
 
 This project is a conversational chatbot developed to assist farmers and agricultural advisors in identifying and managing crop diseases. The bot leverages deep learning and natural language processing (NLP) techniques, specifically using **BERT embeddings**, to comprehend user queries about crop diseases and provide helpful, context-aware guidance. By employing a pre-trained and fine-tuned model, the chatbot improves its understanding of agricultural terminology and scenarios, providing users with accurate responses.
