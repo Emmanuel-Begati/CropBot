@@ -54,15 +54,18 @@ To evaluate the performance of the Crop Chat-Bot, two key metrics were used:
    - The **BLEU score** is a metric commonly used to evaluate the quality of machine-generated text, particularly in machine translation tasks. In the case of the Crop Chat-Bot, BLEU measures how closely the generated responses match the reference responses in the dataset.
    - The BLEU score ranges from 0 to 1, with 1 indicating perfect similarity between the model's output and the reference response. A higher BLEU score indicates that the model is providing responses that are closer to the ideal response.
    - A score of **0.7 or above** typically indicates strong performance, but in cases of conversational systems, some variations in wording may be acceptable.
+   - My model had a bleu score of 0.88 which is very good
 
 2. **F1 Score**:
    - The **F1 score** is a harmonic mean of precision and recall and is especially useful when there is an imbalance in the class distribution (i.e., certain diseases or queries might be more common than others).
      - **Precision**: Measures how many of the model’s responses are relevant (i.e., the percentage of relevant responses out of all responses generated).
      - **Recall**: Measures how many relevant responses the model actually generated (i.e., the percentage of relevant responses out of all the possible correct responses).
    - F1 score is particularly valuable when you need a balance between precision and recall, and is used to assess the chatbot’s ability to provide accurate and relevant answers across all disease queries.
+   - I had an F1 score of 0.7.. so that is also very good!!
 
 ### Model Accuracy:
 - The **accuracy** of the model was also computed, which represents the proportion of correct responses (i.e., the number of times the bot’s response matches the expected response) compared to the total number of queries. While accuracy is useful, it does not account for the nuances of different types of responses, which is why the F1 score and BLEU score provide additional insights into model performance.
+- My model reached an accuracy of 94%.. which means my model is doing pretty well!
 
 ## Deployment
 
