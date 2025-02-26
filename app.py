@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 from transformers import BertTokenizer, TFBertModel
 from tensorflow.keras.models import load_model
 import tensorflow as tf
-import streamlit as st
+import app as st
 from streamlit_chat import message
 from datetime import datetime
 
@@ -60,8 +60,8 @@ def main_(message: str):
 
 # Set page config
 st.set_page_config(
-    page_title="Crop Disease Assistant",
-    page_icon="🌱",
+    page_title="Crop Bot",
+    page_icon="🌾",
     layout="centered"
 )
 
@@ -95,14 +95,14 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🌱 Crop Disease Assistant")
-st.write("Ask me about crop diseases, symptoms, treatments, and prevention methods!")
+st.title("🌾 Crop Bot")
+st.write("Ask me about crops and their diseases!")
 
 # Chat interface
 if 'history' not in st.session_state:
     st.session_state['history'] = []
 
-user_input = st.text_input("Ask your question here:", "", key="input", placeholder="e.g., What are the symptoms of tomato blight?")
+user_input = st.text_input("Ask your question here:", "", key="input", placeholder="e.g., What is a cover crop?")
 if st.button("Send"): 
     if user_input:
         response = main_(user_input)
@@ -115,5 +115,5 @@ for user_msg, bot_msg in st.session_state['history']:
 
 # Footer
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #666;'>\n<p>Developed with ❤️ for farmers and agricultural professionals</p>\n<p>For emergencies, please consult with a local agricultural expert.</p>\n</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #666;'>\n<p>This is just a personal passion project. So use with caution. #Begati", unsafe_allow_html=True)
 
